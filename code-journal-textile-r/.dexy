@@ -1,0 +1,7 @@
+{
+  "journal.txt|jinja|fn|textile|hd|ft" : {
+    "allinputs" : true, "notextile" : true
+  },
+  "*.R|fn|idio|rint|pyg" : {},
+  "_*.html|jinja" : {}
+}
