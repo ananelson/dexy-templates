@@ -1,0 +1,7 @@
+{
+  "journal.html|fn|jinja|hd|ft" : {
+    "allinputs" : true
+  },
+  "*.py|fn|idio|pycon|pyg" : {},
+  "_*.html|jinja" : {}
+}
