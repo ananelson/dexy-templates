@@ -1,0 +1,13 @@
+{
+  "journal.txt|jinja|textile|hd|ft" : {
+    "allinputs" : true,
+    "notextile" : true
+  },
+  "*.rb|pyg" : {},
+  "*.rb|rb" : {
+    "args" : {
+      "rb" : "-rubygems"
+    }
+  },
+  "_*.html|jinja" : {}
+}
