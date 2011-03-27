@@ -1,0 +1,7 @@
+{
+  "article.tex|fn|jinja|hd|ft|latex" : {
+    "allinputs" : true
+  },
+  "*.R|fn|idio|rint|pyg|l" : {},
+  "_*.tex|dexy" : {}
+}
