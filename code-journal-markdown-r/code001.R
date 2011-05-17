@@ -7,6 +7,6 @@ x * y
 
 ### @export "graph"
 png("dexy--plot.png")
-plot(c(1,2,3), pch=19, col="purple")
+plot(c(1,2,3), pch=20, col="purple")
 dev.off()
 
