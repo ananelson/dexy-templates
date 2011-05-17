@@ -1,42 +1,17 @@
-			<h1>Atatonic CSS Framework</h1>
-			<h2>Some R Examples</h2>
-      <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h1>Dexy Templates</h1>
+<h2>Some R Examples</h2>
 
+<p class="intro">An example of using Dexy to document an R script in HTML, including using the filename filter and referencing generated graphs.</p>
 
-      <p>First we assign variables:</p>
-      {{ s['code001.html']['assign-variables'] }}
+<p>First we assign variables:</p>
+{{ d['code001.R|fn|idio|rint|pyg']['assign-variables'] }}
 
-      <p>Let's do some multiplication:</p>
-      {{ s['code001.html']['multiply'] }}
+<p>Let's do some multiplication:</p>
+{{ d['code001.R|fn|idio|rint|pyg']['multiply'] }}
 
-      <p>Here's the source code of a graph:</p>
-      {{ s['code001.html']['graph'] }}
+<p>Here's the source code of a graph:</p>
+{{ d['code001.R|fn|idio|rint|pyg']['graph'] }}
 
-      <p>Here is the graph:</p>
-      <img src="../artifacts/dexy--plot.png" />
+<p>Here is the graph:</p>
+<img src="plot.png" />
 
-			<h3>What another framework?</h3>
-			<p>Lorem ipsum dolor sit amet, <a href="http://www.timbenniks.com">consectetur</a> adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-			<hr />	
-				
-			<div class="zp-50 item">
-				<div class="padding">
-					<h4>Testing 1</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>
-			<div class="zp-50 item">
-				<div class="padding last">
-					<h4>Testing 2</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>
-			
-			<hr class="clear" />
-			
-			<h2>This is even better</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			
