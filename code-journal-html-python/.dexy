@@ -1,7 +1,11 @@
 {
+  "*.py|idio|pycon|pyg" : {},
   "journal.html|jinja|hd|ft" : {
     "allinputs" : true
   },
-  "*.py|idio|pycon|pyg" : {},
-  "_*.html|jinja" : {}
+  "debug.txt|jinja" : {
+    "allinputs" : true
+  },
+  "_*.html|jinja" : {},
+  "*.css|cp" : {}
 }
