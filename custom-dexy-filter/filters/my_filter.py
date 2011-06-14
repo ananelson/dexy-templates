@@ -1,6 +1,6 @@
-from dexy.dexy_filter import DexyFilter
+from dexy.handler import DexyHandler
 
-class SillyHandler(DexyFilter):
+class SillyHandler(DexyHandler):
     ALIASES =['com.example.silly']
 
     def process_text(self, input_text):
