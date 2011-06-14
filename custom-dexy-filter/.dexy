@@ -1,0 +1,5 @@
+{
+    "report.txt|jinja" : { "allinputs" : true},
+    "*.say|dexy" : {},
+    "*.say|com.example.silly" : {}
+}
