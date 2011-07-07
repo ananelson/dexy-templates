@@ -1,0 +1,11 @@
+The contents of the following documents are included in this file:
+{% for k in dk -%}
+   {{ k }}
+{% endfor -%}
+
+{% for k in dk %}
+==================================================
+{{ k }}
+--------------------------------------------------
+{{ d[k] }}
+{% endfor %}
