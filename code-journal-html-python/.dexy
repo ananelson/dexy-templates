@@ -6,6 +6,9 @@
   "debug.txt|jinja" : {
     "allinputs" : true
   },
+  "debug-full.txt|jinja" : {
+    "allinputs" : true
+  },
   "_*.html|jinja" : {},
   "*.css|cp" : {}
 }
