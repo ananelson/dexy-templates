@@ -1,6 +1,6 @@
 {
   "*.py|idio|pycon|pyg" : {},
-  "journal.html|jinja|hd|ft" : {
+  "index.html|jinja|hd|ft" : {
     "allinputs" : true
   },
   "debug.txt|jinja" : {
@@ -9,6 +9,6 @@
   "debug-full.txt|jinja" : {
     "allinputs" : true
   },
-  "_*.html|jinja" : {},
+  "_*.html|dexy" : {},
   "*.css|cp" : {}
 }
