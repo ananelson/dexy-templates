@@ -1,5 +1,14 @@
 {
   "*.py|idio|pycon|pyg" : {},
+  "*.py|pyg" : {},
+  "*.py|pyg|-with-lineanchors" : {
+      "pygments" : {
+          "formatter" : {
+              "linenos" : true,
+              "anchorlinenos" : true
+          }
+      }
+  },
   "index.html|jinja|hd|ft" : {
     "allinputs" : true
   },

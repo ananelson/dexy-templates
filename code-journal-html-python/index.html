@@ -1,11 +1,19 @@
-			<h1>Dexy Template</h1>
-			<h2>Python Example</h2>
-      <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h1>Dexy Template</h1>
 
+<h2>Python Example</h2>
+<p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-      <p>First we assign variables:</p>
-      {{ d['code001.py|idio|pycon|pyg']['assign-variables'] }}
+<p>First we assign variables:</p>
+{{ d['code001.py|idio|pycon|pyg']['assign-variables'] }}
 
-      <p>Let's do some multiplication:</p>
-      {{ d['code001.py|idio|pycon|pyg']['multiply'] }}
+<p>Let's do some multiplication:</p>
+{{ d['code001.py|idio|pycon|pyg']['multiply'] }}
+
+<h3>Complete Script</h3>
+
+<p>Here is the complete script with line numbers and anchors:</p>
+{{ d['code001.py|pyg|-with-lineanchors'] }}
+
+<p>And without them:</p>
+{{ d['code001.py|pyg'] }}
 
