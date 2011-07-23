@@ -1,1 +1,0 @@
-{"0000:1": "\n", "0002:call-module": "import demomodule\nprint demomodule.abc()\n", "0001:add-parent-to-pythonpath": "import sys\nsys.path.append(\"..\")\n"}
