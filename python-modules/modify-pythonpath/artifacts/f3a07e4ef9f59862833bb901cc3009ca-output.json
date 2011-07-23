@@ -1,0 +1,1 @@
+{"0000:1": "### @export \"add-parent-to-pythonpath\"\nimport sys\nsys.path.append(\"..\")\n\n### @export \"call-module\"\nimport demomodule\nprint demomodule.abc()\n\n"}

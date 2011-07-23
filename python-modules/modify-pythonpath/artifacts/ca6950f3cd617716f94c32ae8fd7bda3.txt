@@ -1,0 +1,5 @@
+
+import sys
+sys.path.append("..")
+import demomodule
+print demomodule.abc()
