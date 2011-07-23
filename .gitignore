@@ -2,4 +2,5 @@ artifacts/
 logs/
 output-long/
 output-latest.tgz
+*.pyc
 
