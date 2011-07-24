@@ -11,7 +11,7 @@ x = numpy.random.randn(10000)
 pyplot.hist(x, 100)
 
 ### @export "save"
-figfilename = "dexy--pyplot-example.png"
+figfilename = "dexy--pyplot-hist-example.png"
 figfile = open(figfilename, "wb")
 pyplot.savefig(figfile)
 figfile.close()

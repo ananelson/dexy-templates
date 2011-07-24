@@ -16,5 +16,12 @@ Save the histogram to a png file:
 
 Here is the graph:
 
-![A Histogram](pyplot-example.png)
+![A Histogram](pyplot-hist-example.png)
 
+## A Python CSV Example
+
+{{ d['code002.py|fn|idio|pycon|pyg']['import-data'] }}
+
+{{ d['code002.py|fn|idio|pycon|pyg']['graph-data'] }}
+
+![xy plot from csv data](pyplot-xy-example.png)
