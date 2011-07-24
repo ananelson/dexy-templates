@@ -1,5 +1,5 @@
 {
-  "*.md|fn|markdown|jinja" : {
+  "*.md|fn|markdown|jinja|hd|ft" : {
     "allinputs" : true
   },
   "*.py|fn|idio|pycon|pyg" : { "inputs" : ["*.csv|dexy"] },
