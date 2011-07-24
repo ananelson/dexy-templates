@@ -3,5 +3,6 @@
     "allinputs" : true
   },
   "*.R|fn|idio|r|pyg|l" : {},
+  "*.R|pyg|l" : {},
   "_*.tex|dexy" : {}
 }
