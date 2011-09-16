@@ -1,0 +1,12 @@
+{
+  "book.tex|fn|jinja|hd|ft|latex" : {
+    "allinputs" : true,
+    "inputs" : ["chapter-*.tex|fn|jinja"]
+  },
+  "chapter-*.tex|fn|jinja" : {
+      "allinputs" : true
+  },
+  "*.R|fn|idio|r|pyg|l" : {},
+  "*.R|pyg|l" : {},
+  "_*.tex|dexy" : {}
+}
