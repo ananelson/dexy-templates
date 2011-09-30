@@ -1,8 +1,10 @@
 {
-  "article.tex|fn|jinja|hd|ft|latex" : {
+  "article.tex|jinja|hd|ft|latex|pdf2png|im-thumb" : {
     "allinputs" : true
   },
-  "*.R|fn|idio|r|pyg|l" : {},
-  "*.R|pyg|l" : {},
-  "_*.tex|dexy" : {}
+  "@template.tgz|tgzdir" : {
+      "dir" : "template"
+  },
+  "*.R|dexy" : {},
+  "*.tex|dexy" : {}
 }
