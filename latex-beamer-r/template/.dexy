@@ -1,0 +1,7 @@
+{
+    "*.tex|fn|jinja|latex" : {
+        "allinputs" : true
+    },
+   "*.R|pyg|l" : {},
+   "*.R|fn|idio|r|pyg|l" : {}
+}

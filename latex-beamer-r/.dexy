@@ -1,7 +1,15 @@
 {
-    "*.tex|fn|jinja|latex" : {
-        "allinputs" : true
+  "slides.tex|jinja|latex|pdf2png|im-thumb" : {
+    "allinputs" : true,
+    "im-thumb" : {
+        "crop" : "800x800+0+0",
+        "title" : "LaTeX Beamer & R",
+        "text-top" : 100
     },
-   "*.R|pyg|l" : {},
-   "*.R|fn|idio|r|pyg|l" : {}
+    "page" : 2
+  },
+  "@template.tgz|tgz" : {
+      "allinputs" : true,
+      "use-short-names" : true
+  }
 }
