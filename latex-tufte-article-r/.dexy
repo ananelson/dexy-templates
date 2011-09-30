@@ -1,8 +1,12 @@
 {
-  "*.tex|fn|jinja|hd|ft|latex" : {
-    "allinputs" : true,
-    "except" : "_.*"
+  "article.tex|jinja|hd|ft|latex|pdf2png|im-thumb" : {
+      "allinputs" : true,
+       "im-thumb" : {
+           "crop" : "800x800+150+690",
+           "title" : "LaTeX & R"
+        }
   },
-  "*.R|fn|idio|r|pyg|l" : {},
-  "_*.tex|dexy" : {}
+  "@template.tgz|tgzdir" : {
+      "dir" : "template"
+  }
 }
