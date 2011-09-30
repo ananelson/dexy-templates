@@ -1,0 +1,7 @@
+To start a new project, copy the template/ directory to where you would like to
+work. (Make sure the hidden .dexy file gets copied too!) Run dexy --setup from
+inside your new project home to get started, make sure it generates a PDF file
+in the output/ directory, then start modifying the LaTeX source and the Python
+script. You can add extra scripts and make new documents, this is just a
+starting point.
+

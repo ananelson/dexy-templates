@@ -1,0 +1,8 @@
+{
+  "article.tex|jinja|hd|ft|latex" : {
+    "allinputs" : true
+  },
+  "*.py|idio|pycon|pyg|l" : {},
+  "_*.tex|jinja" : {},
+  "*.sty|dexy" : {}
+}

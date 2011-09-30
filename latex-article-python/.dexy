@@ -1,7 +1,9 @@
 {
-  "article.tex|jinja|hd|ft|latex" : {
+  "article.tex|jinja|hd|ft|latex|pdf2png|im-thumb" : {
     "allinputs" : true
   },
-  "*.py|idio|pycon|pyg|l" : {},
-  "_*.tex|dexy" : {}
+  "@template.tgz|tgz" : {
+      "allinputs" : true,
+      "use-short-names" : true
+  }
 }
