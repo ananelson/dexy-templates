@@ -1,11 +1,12 @@
 {
-  "book.tex|jinja|hd|ft|latex|pdf2png|im-grid" : {
-      "disabled" : true,
+  "book.tex|jinja|latex|pdf2png|im-thumb" : {
       "allinputs" : true,
        "im-thumb" : {
-           "crop" : "500x500+450+450",
-           "title" : "LaTeX & R"
-        }
+           "crop" : "700x700+350+800",
+           "title" : "LaTeX & R Book",
+           "text-top": 130
+        },
+       "page" : 3
   },
   "@template.tgz|tgzdir" : {
       "dir" : "template"

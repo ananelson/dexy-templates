@@ -1,7 +1,6 @@
 {
   "book.tex|fn|jinja|latex" : {
-    "allinputs" : true,
-    "disabled" : true
+    "allinputs" : true
   },
   "debug.txt|jinja" : {
     "allinputs" : true
