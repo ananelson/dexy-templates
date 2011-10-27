@@ -2,8 +2,8 @@
   "*.md|fn|markdown|jinja|hd|ft" : {
     "allinputs" : true
   },
-  "*.py|fn|idio|pycon|pyg" : { "inputs" : ["*.csv|dexy"] },
+  "*.py|fn|idio|pycon|pyg" : { "inputs" : ["*.csv"] },
   "_*.html|dexy" : {},
-  "*.css|cp" : {},
+  "*.css" : {},
   "debug.txt|jinja" : { "allinputs" : true}
 }

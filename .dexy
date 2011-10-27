@@ -1,0 +1,6 @@
+{
+    "template.html|jinja" : {
+        "allinputs" : true,
+        "priority": 1
+    }
+}
