@@ -4,5 +4,6 @@
   },
   "*.py|fn|idio|pycon|pyg" : { "inputs" : ["*.csv|dexy"] },
   "_*.html|dexy" : {},
-  "*.css|cp" : {}
+  "*.css|cp" : {},
+  "debug.txt|jinja" : { "allinputs" : true}
 }

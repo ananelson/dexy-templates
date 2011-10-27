@@ -20,6 +20,12 @@ Here is the graph:
 
 ## A Python CSV Example
 
+Here is some CSV data
+
+<pre>
+{{ d['data.csv'] }}
+</pre>
+
 {{ d['code002.py|fn|idio|pycon|pyg']['import-data'] }}
 
 {{ d['code002.py|fn|idio|pycon|pyg']['graph-data'] }}

@@ -1,0 +1,8 @@
+{
+  "*.md|fn|markdown|hd|ft|jinja" : {
+    "allinputs" : true
+  },
+  "*.R|fn|idio|rint|pyg" : {},
+  "_*.html|dexy" : {},
+  "*.css|cp" : {}
+}

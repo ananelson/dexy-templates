@@ -1,0 +1,11 @@
+{
+  "index.html|fn|jinja|hd|ft" : {
+    "allinputs" : true
+  },
+  "debug.txt|jinja" : {
+    "allinputs" : true
+  },
+  "*.R|fn|idio|rint|pyg" : {},
+  "_*.html" : {},
+  "*.css" : {}
+}

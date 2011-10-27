@@ -1,0 +1,14 @@
+{
+  "_*.html|dexy" : {},
+  "journal.txt|jinja|textile|hd|ft" : {
+    "allinputs" : true,
+    "notextile" : true
+  },
+  "debug.txt|jinja" : { "allinputs" : true},
+  "*.rb|pyg" : {},
+  "*.rb|rb" : {
+    "args" : {
+      "rb" : "-rubygems"
+    }
+  }
+}
