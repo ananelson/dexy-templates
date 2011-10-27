@@ -1,0 +1,21 @@
+{
+  "*.py|idio|pycon|pyg" : {},
+  "*.py|pyg" : {},
+  "*.py|pyg|-with-lineanchors" : {
+      "pygments" : {
+              "linenos" : true,
+              "anchorlinenos" : true
+      }
+  },
+  "index.html|jinja|hd|ft" : {
+    "allinputs" : true
+  },
+  "debug.txt|jinja" : {
+    "allinputs" : true
+  },
+  "debug-full.txt|jinja" : {
+    "allinputs" : true
+  },
+  "_*.html" : {},
+  "*.css" : {}
+}

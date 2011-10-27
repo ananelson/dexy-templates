@@ -1,8 +1,0 @@
-{
-    "*.md|jinja|markdown|hd|ft" : { "allinputs" : true},
-    "demo-script.py|idio|pycon|pyg" : {},
-    "*.py|idio" : {},
-    "*.py|pyg" : {},
-    "_*.html|dexy" : {}
-}
-

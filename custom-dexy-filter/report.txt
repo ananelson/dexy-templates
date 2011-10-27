@@ -1,8 +1,0 @@
-Here's the input:
-
-{{ d['input.say|dexy'] }}
-
-Here's the output:
-
-{{ d['input.say|com.example.silly'] }}
-

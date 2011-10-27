@@ -1,23 +1,14 @@
 {
-  "*.py|idio|pycon|pyg" : {},
-  "*.py|pyg" : {},
-  "*.py|pyg|-with-lineanchors" : {
-      "pygments" : {
-          "formatter" : {
-              "linenos" : true,
-              "anchorlinenos" : true
-          }
-      }
+  "index.html|jinja|hd|ft|html2pdf|pdf2png|im-thumb" : {
+    "allinputs" : true,
+    "canonical-name" : "thumb.png",
+       "im-thumb" : {
+           "crop" : "500x500+100+700",
+           "title" : "HTML & Python"
+        }
   },
-  "index.html|jinja|hd|ft" : {
-    "allinputs" : true
-  },
-  "debug.txt|jinja" : {
-    "allinputs" : true
-  },
-  "debug-full.txt|jinja" : {
-    "allinputs" : true
-  },
-  "_*.html|dexy" : {},
-  "*.css|cp" : {}
+  "@template.tgz|tgzdir" : {
+      "dir" : "template",
+      "use-short-names" : true
+  }
 }
