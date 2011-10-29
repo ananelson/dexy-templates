@@ -1,13 +1,5 @@
 {
-  "index.html|jinja|hd|ft|html2pdf|pdf2png|im-thumb" : {
-    "allinputs" : true,
-    "canonical-name" : "thumb.png",
-       "im-thumb" : {
-           "crop" : "500x500+100+700",
-           "title" : "HTML & Python"
-        }
-  },
-  "@template.tgz|tgzdir" : {
+  "@code-journal-html-python-dexy-template.tgz|tgzdir" : {
       "dir" : "template",
       "use-short-names" : true
   }

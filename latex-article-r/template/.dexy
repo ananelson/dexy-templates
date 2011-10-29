@@ -1,5 +1,5 @@
 {
-  "article.tex|fn|jinja|hd|ft|latex" : {
+  "article.tex|fn|hd|ft|jinja|latex" : {
     "allinputs" : true
   },
   "*.R|fn|idio|r|pyg|l" : {},

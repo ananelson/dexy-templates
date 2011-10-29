@@ -7,13 +7,10 @@
               "anchorlinenos" : true
       }
   },
-  "index.html|jinja|hd|ft" : {
+  "journal.html|hd|ft|jinja" : {
     "allinputs" : true
   },
   "debug.txt|jinja" : {
-    "allinputs" : true
-  },
-  "debug-full.txt|jinja" : {
     "allinputs" : true
   },
   "_*.html" : {},

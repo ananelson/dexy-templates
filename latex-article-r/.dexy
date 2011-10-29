@@ -1,14 +1,5 @@
 {
-  "article.tex|jinja|hd|ft|latex|pdf2png|im-thumb" : {
-      "allinputs" : true,
-       "im-thumb" : {
-           "crop" : "500x500+450+450",
-           "title" : "LaTeX & R"
-        }
-  },
   "@template.tgz|tgzdir" : {
       "dir" : "template"
-  },
-  "*.R|dexy" : {},
-  "*.tex|dexy" : {}
+  }
 }
