@@ -1,0 +1,13 @@
+{% macro menu() %}
+<ul>
+{% for dir, title in navigation.directories.iteritems() -%}
+{% if navigation.current_index == dir -%}
+{% set liclass = 'active' -%}
+{% else -%}
+{% set liclass = '' -%}
+{% endif -%}
+<li class="{{ liclass }}"><a href="/{{ dir }}">{{ title }}</a></li>
+{% endfor -%}
+</ul>
+
+{% endmacro %}

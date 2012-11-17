@@ -1,6 +1,0 @@
-{
-  "@template.tgz|tgzdir" : {
-      "dir" : "template",
-      "use-short-names" : true
-  }
-}

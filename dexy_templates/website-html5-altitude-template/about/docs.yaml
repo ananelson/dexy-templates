@@ -1,0 +1,11 @@
+### @export "content-demos"
+- simple_content.html:
+    - ws_template: _simple_template.html
+
+- head_body_content.html|htmlsections:
+    - ws_template: _head_body_template.html
+
+### @export "introspect"
+- introspect.html:
+    - contents: " "
+    - ws_template: _introspect_template.html

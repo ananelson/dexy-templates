@@ -1,0 +1,32 @@
+{% extends '_base.html' -%}
+{% block mainpage -%}
+<div id="featured-content-wrapper">
+    <div class="12u" id="feature-content">
+        <div class="5grid-layout">
+            <div class="row">
+                {{ content.one }}
+            </div>
+        </div>
+    </div>
+</div>
+<div id="page-wrapper">
+    <div class="divider"></div>
+    <div class="12u">
+        <div class="5grid-layout" id="page">
+            <div class="row">
+                <div class="7u">
+                    {{ content.two }}
+
+                </div>
+                <div class="1u">&nbsp;</div>
+                <div class="2u" id="sidebar1">
+                    {{ content.three }}
+                </div>
+                <div class="2u">
+                    {{ content.four }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock -%}

@@ -1,0 +1,3 @@
+After you generate the site by running 'dexy', you can preview your site by
+running 'dexy serve' which will launch a simple web server built into Python.
+For more information run 'dexy help -on serve'.

@@ -1,0 +1,11 @@
+<pre>
+{% for k, v in locals()['_Context__self'].iteritems() -%}
+{{ k }}:{% if not isinstance(v, dict) -%}
+{{ v }}
+{% else %}
+{% for kk, vv in v.iteritems() -%}
+&nbsp;&nbsp;{{ kk }} : {{ vv }}
+{% endfor -%}
+{% endif -%}
+{% endfor -%}
+</pre>

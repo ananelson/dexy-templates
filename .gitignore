@@ -2,6 +2,9 @@ artifacts/
 logs/
 output/
 output-long/
+output-site/
 output-latest.tgz
 *.pyc
 memory.log
+*.egg-info
+build/

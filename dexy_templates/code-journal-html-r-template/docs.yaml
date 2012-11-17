@@ -1,0 +1,11 @@
+journal.html|jinja:
+    - code
+    - .R|pyg
+    - .R|idio|rint|pyg
+
+assets:
+    - .css
+    - pygments.css|pyg:
+        - contents: " "
+        - pyg: { "ext" : ".css" }
+        - canon: True

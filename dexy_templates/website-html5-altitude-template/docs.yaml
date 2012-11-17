@@ -1,0 +1,34 @@
+### @export "docs"
+docs:
+    - index.html|jinja|markdown|htmlsections:
+        - ws_template : '_home_template.html'
+    - .md|jinja|markdown:
+        - meta
+        - source
+
+### @export "assets"
+assets:
+    - .css
+    - .js
+    - .png
+    - .jpg
+
+### @export "source"
+source:
+    - .txt
+    - .md
+    - "*/_*.html|pyg|-":
+        - canon : True
+        - ws_template : False
+
+### @export "meta"
+meta:
+    - list-reports.sh|shint|pyg:
+        - contents : "dexy reporters"
+    - .jinja|pyg
+    - .yaml|idio
+    - .html|pyg
+    - .md|idio:
+        - idio: { lexer : jinja }
+    - dexy.conf|pyg:
+        - pyg: { lexer : yaml }
