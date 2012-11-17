@@ -10,7 +10,8 @@ setup(
             ],
         name='dexy_templates',
         packages=find_packages(),
-        url='http://dexy.it'
+        url='http://dexy.it',
+        version="0.0.1"
         )
 
 
