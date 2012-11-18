@@ -1,5 +1,11 @@
 from dexy.template import Template
 
+class Pander(Template):
+    """
+    Examples using pander (http://rapporter.github.com/pander) to generate markdown output from R and pandoc to render in multiple formats.
+    """
+    ALIASES = [ 'pander']
+
 class Html5Website(Template):
     """
     Template for creating a website using dexy's WebsiteReporter. (based on http://html5templates.com/altitude/)

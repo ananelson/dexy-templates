@@ -1,0 +1,13 @@
+code:
+    - .R|rout
+
+.md|jinja|pandoc:
+    - code
+
+.md|jinja|pandoc|-odt:
+    - pandoc: { ext : .odt }
+    - code
+
+.md|jinja|pandoc|-pdf:
+    - pandoc: { ext : .pdf }
+    - code
