@@ -28,11 +28,11 @@ The WebsiteReporter will copy all non-HTML files to the `output-site/` directory
 
 The WebsiteReporter looks first in the same directory as the file being processed, then it looks in each succeeding parent directory as far up as the project root, until it finds a file named `_template.html`. It uses the first one it finds (i.e. the one closest to the HTML document being processed). If it does not find one, it raises a UserFeedback exception to let you know. You can tell the WebsiteReporter not to try to apply a template by setting the `ws_template` argument to False, as in this example:
 
-{{ d['/docs.yaml|idio']['source'] }}
+{{ d['/dexy.yaml|idio']['source'] }}
 
 You can also specify another file to use as a template, as in this example:
 
-{{ d['/docs.yaml|idio']['docs'] }}
+{{ d['/dexy.yaml|idio']['docs'] }}
 
 ### The content Tag
 
@@ -50,9 +50,9 @@ For example, this HTML source is split into sections by the `htmlsections` filte
 
 {{ d['head_body_content.html|pyg'] }} [link to page rendered in template](head_body_content.html)
 
-Here is the `docs.yaml` for these pages:
+Here is the `dexy.yaml` for these pages:
 
-{{ d['docs.yaml|idio']['content-demos'] }}
+{{ d['dexy.yaml|idio']['content-demos'] }}
 
 ### Jinja Templates and Macros
 
