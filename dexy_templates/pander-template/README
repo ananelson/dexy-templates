@@ -1,0 +1,8 @@
+This template demonstrates how you might use the R library pander to generate
+markdown output from R objects, save these to an intermediate JSON file, then
+access the JSON file from a markdown document to incorporate the results.
+
+You need to have pandoc, R and the pander library installed.
+http://rapporter.github.com/pander/#installation_link
+
+Running 'dexy' should generate HTML, PDF, DOCX, and ODT.

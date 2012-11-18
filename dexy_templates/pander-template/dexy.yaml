@@ -11,3 +11,7 @@ code:
 .md|jinja|pandoc|-pdf:
     - pandoc: { ext : .pdf }
     - code
+
+.md|jinja|pandoc|-docx:
+    - pandoc: { ext : .docx }
+    - code
