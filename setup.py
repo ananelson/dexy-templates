@@ -22,7 +22,7 @@ setup(
         description='Templates for dexy projects.',
         include_package_data = True,
         install_requires = [
-            'dexy>=0.9.0',
+            'dexy>=0.9.1',
             'Markdown'
             ],
         name='dexy_templates',
