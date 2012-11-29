@@ -1,7 +1,7 @@
 ### @export "import-data"
 import csv
 
-csv_file = open("dexy--data.csv", "rb")
+csv_file = open("data.csv", "rb")
 reader = csv.reader(csv_file)
 x = []
 y = []
@@ -23,7 +23,7 @@ import matplotlib.pyplot as pyplot
 pyplot.plot(x, y)
 
 ### @export "save-graph"
-figfilename = "dexy--pyplot-xy-example.png"
+figfilename = "pyplot-xy-example.png"
 figfile = open(figfilename, "wb")
 pyplot.savefig(figfile)
 figfile.close()

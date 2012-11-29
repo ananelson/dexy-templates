@@ -2,7 +2,6 @@
     - .py|idio|pycon|pyg:
         - .csv
 
-
 assets:
     - .css
     - pygments.css|pyg:
