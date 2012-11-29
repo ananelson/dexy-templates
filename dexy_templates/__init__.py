@@ -23,3 +23,9 @@ class CodeJournalHtmlR(Template):
     Template for a code journal about R code, written in HTML.
     """
     ALIASES = ['code-journal-html-r']
+
+class CodeJournalMarkdownMatplotlib(Template):
+    """
+    Template for a code journal about matplotlib/numpy code, written in markdown and converted to HTML.
+    """
+    ALIASES = ['code-journal-markdown-matplotlib']
