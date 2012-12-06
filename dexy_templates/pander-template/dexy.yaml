@@ -15,3 +15,10 @@ code:
 .md|jinja|pandoc|-docx:
     - pandoc: { ext : .docx }
     - code
+
+.md|jinja|pandoc|-epub:
+    - pandoc: { ext : .epub }
+    - code
+
+.md|jinja|pandoc|calibre:
+    - code

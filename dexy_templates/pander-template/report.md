@@ -6,11 +6,11 @@ This is a report.
 
 Here is ks-test:
 
-{{ "\n".join(d['storage.json']['ks-test']) }}
+{{ "\n".join(d['storage.json'].json_as_dict()['ks-test']) }}
 
 ## mtcars
 
 Here is a table with mtcars info:
 
-{{ d['storage.json']['mtcars'] }}
+{{ d['storage.json'].json_as_dict()['mtcars'] }}
 
