@@ -1,4 +1,6 @@
 artifacts/
+dist/
+build/
 logs/
 output/
 output-long/

@@ -1,5 +1,6 @@
 code:
-    - .R|rout
+    - .R|rout:
+        - rout: { 'add-new-files' : True }
 
 .md|jinja|pandoc:
     - code

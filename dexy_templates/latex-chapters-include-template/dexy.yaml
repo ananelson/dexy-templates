@@ -1,0 +1,12 @@
+chapters-for-book:
+    - chapter*.rst|jinja
+
+chapters-standalone:
+    - chapter*.rst|jinja|rst2latex|latex
+
+book.rst|jinja|rst2latex|latex:
+    - chapters-for-book
+
+book.rst|jinja|rst2html:
+    - chapters-for-book
+

@@ -1,0 +1,4 @@
+article.tex|hd|ft|jinja|latex:
+    - .py|idio|pycon|pyg|l
+    - .sty
+    - _*.tex

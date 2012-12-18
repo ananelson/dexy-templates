@@ -1,0 +1,3 @@
+article.tex|jinja|hd|ft|latex:
+    - .R|idio|r|pyg|l
+    - _*.tex|jinja

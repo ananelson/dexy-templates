@@ -1,0 +1,25 @@
+\documentclass[11pt,a4paper]{book}
+
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{fancyvrb}
+
+% Pygments syntax highlighting codes
+<< pygments['pastie.tex'] >>
+
+\title{The Name of The Book}
+
+\begin{document}
+
+\frontmatter
+
+\maketitle
+
+\tableofcontents
+
+\mainmatter
+
+<< d['chapters/chapter-1.tex|jinja'] >>
+<< d['chapters/chapter-2.tex|jinja'] >>
+
+\end{document}

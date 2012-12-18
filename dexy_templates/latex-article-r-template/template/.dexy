@@ -1,8 +1,0 @@
-{
-  "article.tex|fn|hd|ft|jinja|latex" : {
-    "allinputs" : true
-  },
-  "*.R|fn|idio|r|pyg|l" : {},
-  "*.R|pyg|l" : {},
-  "_*.tex|jinja" : {}
-}

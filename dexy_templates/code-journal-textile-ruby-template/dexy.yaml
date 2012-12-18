@@ -1,0 +1,5 @@
+journal.textile|jinja|textile|easyhtml:
+    - textile: { notextile: True }
+    - .rb|pyg
+    - .rb|rb:
+        - rb: { clargs : '-rubygems', scriptargs : 'foo=bar' }

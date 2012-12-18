@@ -1,5 +1,0 @@
-Here is a list of available document keys:
-
-{% for k in sorted(d) -%}
-{{ k }}
-{% endfor -%}
