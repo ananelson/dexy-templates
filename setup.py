@@ -22,11 +22,11 @@ setup(
         description='Templates for dexy projects.',
         include_package_data = True,
         install_requires = [
-            'dexy>=0.9.1',
+            'dexy>=0.9.5',
             'Markdown'
             ],
         name='dexy_templates',
         packages=find_packages(),
         url='http://dexy.it',
-        version="0.0.5"
+        version="0.0.6"
         )
