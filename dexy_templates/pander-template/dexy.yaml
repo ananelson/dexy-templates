@@ -10,7 +10,7 @@ code:
     - code
 
 .md|jinja|pandoc|-pdf:
-    - pandoc: { ext : .pdf }
+    - pandoc: { ext : .pdf, args: '--toc' }
     - code
 
 .md|jinja|pandoc|-docx:
