@@ -5,6 +5,9 @@
 First we import matplotlib and other libraries:
 {{ d['code001.py|idio|pycon|pyg']['imports'] }}
 
+Here is just the original source code:
+{{ d['code001.py|idio']['imports'] }}
+
 We tell pyplot to use Agg backend, since we want to save graphs to images. Then we import pyplot:
 {{ d['code001.py|idio|pycon|pyg']['pyplot'] }}
 

@@ -1,4 +1,5 @@
 .md|markdown|jinja:
+    - .py|idio
     - .py|idio|pycon|pyg:
         - .csv
 

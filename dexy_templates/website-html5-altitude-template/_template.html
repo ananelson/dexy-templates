@@ -13,6 +13,12 @@
                     <section>
                     <div class="post">
                         {{ content }}
+                        <h4>Debug:</h4>
+                        <pre>
+                        {% for doc in nav.docs -%}
+                        {{ doc.key_with_class() }}
+                        {% endfor -%}
+                        </pre>
                     </div>
                     </section>
                 </div>
