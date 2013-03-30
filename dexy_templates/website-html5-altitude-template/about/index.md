@@ -60,7 +60,7 @@ The WebsiteReporter lets you make use of jinja's [template inheritance](http://j
 
 For this website, we define a `_base.html` template:
 
-{{ d['/_base.html|pyg'] }}
+{{ d['/templates/_base.html|pyg'] }}
 
 We can break our layout into manageable sections by using jinja's include statements to insert snippets into our template, and by defining blocks we can use jinja's inheritance to customize these blocks in other templates. Here is our generic site-side `_template.html`
 
@@ -68,15 +68,11 @@ We can break our layout into manageable sections by using jinja's include statem
 
 And here is a custom template for the home page:
 
-{{ d['/_home_template.html|pyg'] }}
+{{ d['/templates/_home_template.html|pyg'] }}
 
 ### Navigation and Meta Goodies
 
 In addition to referencing the page content of the page the template is being applied to, the WebsiteReporter also generates helpers for site navigation and similar utilities.
-
-We can see this in the navigation menu macro:
-
-{{ d['/macros/nav.jinja|pyg'] }}
 
 Here is a page showing all the objects which are available to WebsiteReporter templates:
 

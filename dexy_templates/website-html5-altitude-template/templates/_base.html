@@ -1,4 +1,3 @@
-{% from 'macros/nav.jinja' import menu with context %}
 <!DOCTYPE HTML>
 <!--
 Altitude: A responsive HTML5 website template by HTML5Templates.com
@@ -7,7 +6,7 @@ Visit http://html5templates.com for more great templates or follow us on Twitter
 -->
 <html>
     {% block head -%}
-    {% include 'macros/_header.html' -%}
+    {% include 'templates/_header.html' -%}
     {% endblock -%}
     <body>
         <div id="wrapper">
@@ -17,18 +16,18 @@ Visit http://html5templates.com for more great templates or follow us on Twitter
                     <div id="menu">
                         <nav class="mobileUI-site-nav">
                         {% block nav_menu -%}
-                        {{ menu() }}
+                        {% include 'templates/_menu.html' -%}
                         {% endblock -%}
                         </nav>
                     </div>
                 </div>
                 {% block logo -%}
-                {% include 'macros/_logo.html' -%}
+                {% include 'templates/_logo.html' -%}
                 {% endblock -%}
                 </header>
             </div>
             {% block banner -%}
-            {% include 'macros/_banner.html' -%}
+            {% include 'templates/_banner.html' -%}
             <div class="divider"></div>
             {% endblock -%}
             {% block mainpage -%}
@@ -38,7 +37,7 @@ Visit http://html5templates.com for more great templates or follow us on Twitter
             {% endblock -%}
         </div>
         {% block footer -%}
-        {% include 'macros/_footer.html' -%}
+        {% include 'templates/_footer.html' -%}
         {% endblock -%}
     </div>
 </body>

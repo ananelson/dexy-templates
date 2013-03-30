@@ -1,0 +1,7 @@
+<ul>
+    {% for node in root.children -%}
+    {% if node.index_page -%}
+    <li class=""><a href="{{ node.location }}">{{ node.index_page.title() }}</a></li>
+    {% endif -%}
+    {% endfor -%}
+</ul>

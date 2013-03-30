@@ -1,7 +1,7 @@
 ### @export "docs"
 docs:
     - index.html|jinja|markdown|htmlsections:
-        - ws_template : '_home_template.html'
+        - ws-template : 'templates/_home_template.html'
     - .md|jinja|markdown:
         - meta
         - source
