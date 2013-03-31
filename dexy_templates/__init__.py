@@ -1,5 +1,14 @@
 from dexy.template import Template
 
+class WebpyWebapp(Template):
+    """
+    An example web app written using web.py, documented using dexy.
+    """
+    aliases = ['webpy-webapp']
+    filters_used = []
+    def is_active(self):
+        return False
+
 class CodeJournalHtmlPython(Template):
     """
     Template for a code journal about Python code, written in HTML.
@@ -90,3 +99,10 @@ class Html5Website(Template):
     """
     aliases = ['website-html5-altitude']
     filters_used = ['jinja', 'markdown', 'shint', 'idio', 'pyg', 'htmlsections']
+
+class SimpleWebsite(Template):
+    """
+    Template for creating a very simple website using dexy's WebsiteReporter.
+    """
+    aliases = ['website-simple']
+    filters_used = ['jinja', 'rstbody']
