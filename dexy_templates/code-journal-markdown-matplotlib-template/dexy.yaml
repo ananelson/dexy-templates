@@ -1,11 +1,12 @@
 .md|markdown|jinja:
     - .py|idio
     - .py|idio|pycon|pyg:
+        - pycon: { add-new-files: True }
         - .csv
 
 assets:
     - .css
     - pygments.css|pyg:
         - contents: " "
-        - pyg: { "ext" : ".css" }
-        - canon: True
+        - pyg: { ext : .css }
+        - output: True

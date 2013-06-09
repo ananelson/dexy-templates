@@ -1,0 +1,15 @@
+## Example 1
+
+First we assign variables:
+
+{{ d['code001.R|idio|r|pyg|l']['assign-variables'] }}
+
+Let's do some multiplication:
+
+{{ d['code001.R|idio|r|pyg|l']['multiply'] }}
+
+Here's a graph:
+
+{{ d['code001.R|idio|r|pyg|l']['graph'] }}
+
+![Plot](plot.pdf)

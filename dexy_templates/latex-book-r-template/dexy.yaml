@@ -1,5 +1,5 @@
 book.tex|jinja|latex:
     - chapters/chapter-*.tex|jinja:
-        - .R|idio|r|pyg|l:
-            - r: { 'add-new-files' : True }
+        - .R|idio|rint|pyg|l:
+            - rint: { add-new-files: True }
         - .R|pyg|l

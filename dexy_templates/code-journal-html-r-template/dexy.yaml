@@ -1,11 +1,12 @@
 journal.html|jinja:
     - code
     - .R|pyg
-    - .R|idio|rint|pyg
+    - .R|idio|rint|pyg:
+        - rint: { add-new-files: True }
 
 assets:
     - .css
     - pygments.css|pyg:
         - contents: " "
         - pyg: { "ext" : ".css" }
-        - canon: True
+        - output: True

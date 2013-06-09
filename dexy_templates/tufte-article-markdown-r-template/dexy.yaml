@@ -1,0 +1,6 @@
+article.md|jinja|pandoc|hd|ft|latex:
+    - headers
+    - pandoc: { ext: .tex }
+    - .R|idio|r|pyg|l:
+        - r: { add-new-files: True }
+    - _*.tex|jinja
