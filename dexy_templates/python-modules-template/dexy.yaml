@@ -1,0 +1,21 @@
+### @export "example1"
+example1:
+  - example1.py|py:
+      - .py
+
+### @export "example2"
+example2:
+    - example2/*.py|idio|pycon|pyg:
+        - .py
+
+### @export "docs"
+.md|jinja|markdown|easyhtml:
+   - docs-inputs
+
+docs-inputs:
+    - example1
+    - example2
+    - .py|pyg
+    - .py|idio
+    - .yaml|pyg
+    - .yaml|idio

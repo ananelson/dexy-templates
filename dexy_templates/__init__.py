@@ -130,3 +130,10 @@ class Html5Website(Template):
     """
     aliases = ['website-html5-altitude']
     filters_used = ['jinja', 'markdown', 'shint', 'idio', 'pyg', 'htmlsections']
+
+class PythonModules(Template):
+    """
+    Example of re-using python code in a local module.
+    """
+    aliases = ['python-modules']
+    filters_used = ['pyg', 'idio', 'pycon', 'jinja', 'markdown', 'easyhtml']
