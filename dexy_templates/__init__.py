@@ -87,7 +87,7 @@ class LatexBookR(Template):
     Write a PDF book in LaTeX with separate chapters included via jinja.
     """
     aliases = ['latex-book-r']
-    filters_used = ['latex', 'jinja', 'l', 'r', 'idio', 'pyg']
+    filters_used = ['latex', 'jinja', 'l', 'rint', 'idio', 'pyg']
 
 class TufteArticleLaTeXR(Template):
     """
@@ -101,7 +101,7 @@ class TufteArticleMarkdownR(Template):
     Write a PDF article in Markdown about R code applying the Tufte-LaTeX style.
     """
     aliases = ['tufte-article-markdown-r']
-    filters_used = ['latex', 'ft', 'jinja', 'l', 'r', 'idio', 'hd', 'pyg', 'markdown']
+    filters_used = ['latex', 'ft', 'jinja', 'l', 'r', 'idio', 'hd', 'pyg', 'pandoc']
 
 class Pander(Template):
     """
