@@ -1,0 +1,6 @@
+- .rst|jinja|rstbody:
+    - except: "sitemap|debug"
+- sitemap.rst|jinja|rstbody:
+    - ws-template: _sitemap.html
+- debug.rst|jinja|rstbody:
+    - ws-template: _debug.html

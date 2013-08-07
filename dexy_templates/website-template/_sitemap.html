@@ -1,0 +1,9 @@
+<html>
+    <head>
+    </head>
+    <body style="border: thin solid purple;">
+        {% from 'nav.jinja' import sitemap with context -%}
+        {{ content }}
+        {{ sitemap() }}
+    </body>
+</html>

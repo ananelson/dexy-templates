@@ -1,0 +1,26 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <p>The website reporter populates the jinja environment with variables which have information about the pages in the project. A variable named <code>navobj</code> contains an entry for every directory in the project, and has a link to the index page (the <code>index.html</code> page), documents within that directory, and child directories.</p>
+        <p>Here is information for this website:</p>
+        <pre>
+        {{ navobj.debug() }}
+        </pre>
+        <p>Each entry is a Node, and nodes represent directories within a website.</p>
+        <p>The root node refers to the <code>/</code> location within the navobj.</p>
+        <p>Here are the children of the root node for this website, sorted alphabetically:</p>
+        <pre>
+        {{ sorted(root.children) }}
+        </pre>
+        <p>The "nav.jinja" macros included with the website reporter give some examples of how to use these objects. You can use the macros directly or use them as examples for iterating over these objects yourself to generate navigation menus or sitemaps.</p>
+        {% from "nav.jinja" import sitemap with context %}
+        {{ sitemap() }}
+        <p>Here are all the items available to website templates:</p>
+        <pre>
+        {% for k, v in sorted(locals()['_Context__self'].iteritems()) -%}
+        {{ k }}: {{ v | e }}
+        {% endfor -%}
+        </pre>
+    </body>
+</html>
