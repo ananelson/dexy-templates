@@ -1,5 +1,11 @@
 from dexy.template import Template
 
+class DjangoPolls(Template):
+    """
+    Document the Polls app from the Django tutorial.
+    """
+    aliases = ['django-polls', 'quickstart']
+
 class CodeJournalHtmlPython(Template):
     """
     Write HTML to discuss a short Python script.

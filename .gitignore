@@ -1,5 +1,6 @@
 artifacts/
 .cache/
+.dexy/
 dist/
 build/
 logs/

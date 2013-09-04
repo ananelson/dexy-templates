@@ -1,0 +1,45 @@
+### "inputs"
+sourcecode:
+    - .js|idio|h
+    - .js|idio|l
+    - .py|idio|h
+    - .py|idio|l
+    - .sh|idio|h
+    - .sh|idio|l
+    - .html|idio|h
+    - .html|idio|l
+
+### "assets"
+assets:
+    - .css
+
+### "run-tests"
+run-tests:
+    - scripts/run-tests.sh|shint:
+        - shint: { 'use-wd' : False }
+
+### "run-casper"
+script:run-casper:
+    - scripts/reset-server.sh|shint:
+        - shint: { 'use-wd' : False }
+    - docs/screenshots.js|casperjs
+    - scripts/stop-server.sh|shint:
+        - shint: { 'use-wd' : False }
+    - docs/analyze.R|idio|r|pyg:
+        - r: { 'add-new-files' : True }
+
+### "screenshots-source"
+screenshots-source:
+    - docs/screenshots.js|pyg:
+        - output: True
+        - ws-template: _pyg.html
+
+### "rst"
+.rst|jinja|rstbody|easyhtml:
+    - sourcecode
+    - screenshots-source
+    - script:run-casper
+    - run-tests
+    - easyhtml: {
+        css: "img { border: thin solid grey; }"
+        }
